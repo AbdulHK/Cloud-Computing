@@ -1,13 +1,13 @@
-my_str = input("Enter a string: ")
-
-# make it suitable for caseless comparison
-my_str = my_str.casefold()
-
-# reverse the string
-rev_str = reversed(my_str)
-
-# check if the string is equal to its reverse
-if list(my_str) == list(rev_str):
-   print("It is palindrome")
+n=raw_input("Enter the String:")
+def palindrome(n):
+    index=0
+    check=True
+    while index<len(n):
+        if n[index]==n[-1-index]:
+            index+=1
+            return True
+        return False
+if palindrome(n)==True:
+    print "It is a Palindrome"
 else:
-   print("It is not palindrome")
+    print "It is not a Palindrome"
