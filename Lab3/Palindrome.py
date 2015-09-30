@@ -1,3 +1,4 @@
+
 n=raw_input("Enter the String:")
 def palindrome(n):
     index=0
