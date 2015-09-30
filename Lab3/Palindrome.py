@@ -1,4 +1,5 @@
-
+#Abdulellah Hakim
+#enters a string and then it compares it to the previous value in the string.
 n=raw_input("Enter the String:")
 def palindrome(n):
     index=0
