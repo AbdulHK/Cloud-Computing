@@ -1,8 +1,8 @@
-def isPalindrome():
-    string1 = input('Enter a string: ')
-    string2 = string[::-1]
-    if string1 == string2:
-        return 'It is a palindrome'
-    return 'It is not a palindrome'
 
-isPalindrome()
+def isPalindrome(num):
+     if num[::-1] == num:
+       return True
+    else:
+       return False
+
+print('Hello Alex')
